@@ -1,0 +1,1 @@
+"""Một file Python trống làm nhiệm vụ thông báo cho Python biết thư mục này là một gói (package) có thể import các module lẫn nhau."""
