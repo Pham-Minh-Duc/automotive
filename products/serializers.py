@@ -9,7 +9,7 @@ from .models import Category, Brand, Item, Image, Attribute, Compatibility, Revi
 class CategorySerializer(serializers.ModelSerializer):
     class Meta:
         model = Category
-        fields = ['id', 'name', 'slug', 'desscription']
+        fields = ['id', 'name', 'slug', 'description']
 
 class BrandSerializer(serializers.ModelSerializer):
     class Meta:

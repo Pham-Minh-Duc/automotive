@@ -17,8 +17,9 @@ Including another URLconf
 
 """Nơi tiếp nhận các url từ trình duyệt và điều hướng đến đúng nơi xử lý"""
 from django.contrib import admin
-from django.urls import path
+from django.urls import path, include
 
 urlpatterns = [
     path('admin/', admin.site.urls),
+    path('', include('products.urls')),
 ]
